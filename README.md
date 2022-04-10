@@ -26,7 +26,7 @@ let promise = http_delete(url,authValue=null); // authValue sets "Authorization"
 ``` 
 
 ### Installation
-Download axios.min.js and crud-http.js, and put them in your public folder.
+Download axios.min.js and crud-http.js, and store them in your public folder.
 
 On Linux:
 ```
