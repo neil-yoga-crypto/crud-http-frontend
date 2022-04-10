@@ -1,5 +1,5 @@
 # crud-http-frontend
-Simplest REST API Util (wrapper for axios)
+Simplest HTML Frontend REST API Util (wrapper for axios)
 
 Example:
 ```
