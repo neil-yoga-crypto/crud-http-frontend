@@ -14,12 +14,6 @@ Simplest HTML Frontend REST API Util (wrapper for axios)
         let element = document.getElementById("reponse");
         element.innerHTML = JSON.stringify(data);
     });
-      
-    // optional error handling
-    promise.catch((err) =>{
-        let element = document.getElementById("reponse");
-        element.innerHTML = JSON.stringify(err);
-    });
 </script>
 ```
 
