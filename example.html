@@ -1,0 +1,24 @@
+
+<div id="reponse"></div>
+
+<script src="axios.min.js"></script>
+<script src="crud-http.js"></script>
+<script>
+    let url = 'http://localhost:5684/api'; // replace with your API
+    let promise = http_read(url);
+    promise.then((data) => {
+        let element = document.getElementById("reponse");
+        element.innerHTML = JSON.stringify(data);
+    });
+      
+    // optional error handling
+    promise.catch((err) =>{
+        let element = document.getElementById("reponse");
+        element.innerHTML = JSON.stringify(err);
+    });
+</script>
+<style>
+  body{background:white;color:black;}
+</style>
+
+
