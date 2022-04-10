@@ -1,7 +1,7 @@
 # crud-http-frontend
 Simplest HTML Frontend REST API Util (wrapper for axios)
 
-Example:
+### Example:
 ```
 <div id="reponse"></div>
 
@@ -23,7 +23,7 @@ Example:
 </script>
 ```
 
-#### Methods
+### Methods
 ```
 let promise = http_create(url,data,authValue=null); // authValue sets "Authorization" header for account specific actions
 let promise = http_read(url,authValue=null); // authValue sets "Authorization" header for account specific actions
@@ -31,4 +31,13 @@ let promise = http_update(url,data,authValue=null); // authValue sets "Authoriza
 let promise = http_delete(url,authValue=null); // authValue sets "Authorization" header for account specific actions
 ``` 
 
+### Installation
+Download axios.min.js and crud-http.js, and put them in your public folder.
+
+On Linux:
+```
+cd /var/www/html/your-project
+git clone https://github.com/neil-yoga/crud-http-frontend
+mv crud-http-frontend/*.js .
+```
 
